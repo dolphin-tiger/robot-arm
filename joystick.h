@@ -45,7 +45,7 @@
 
   class joystick {
     private:
-      /*
+      /**
         @brief default parameters for the ideal min/mid/max range of the joystick
 
         @details
@@ -57,7 +57,7 @@
       uint16_t mid = 512;
       uint16_t max = 1023;
 
-      /*
+      /**
         @brief define the allowable range for center calibration
         @details
         mid_min and mid_max define the allowable range for center calibration.
@@ -67,7 +67,8 @@
       uint16_t mid_min = 256;
       uint16_t mid_max = 768;
       uint16_t mid_deadband = 100;
-      /*
+
+      /**
         @brief variables to hold the min/mid/max values for the X axis
         @details
         These variables are used to capture the min/mid/max values of the X axis.
@@ -78,8 +79,8 @@
       uint16_t x_min = min;
       uint16_t x_mid = mid;
       uint16_t x_max = max;
-      
-      /*
+
+      /**
         @brief variables to hold the min/mid/max values for the Y axis
         @details
         These variables are used to capture the min/mid/max values of the Y axis.
@@ -91,7 +92,7 @@
       uint16_t y_mid = mid;
       uint16_t y_max = max;
 
-      /*
+      /**
         @brief variables to hold the button values
         @details
         These variables are used to capture the min/mid/max values of the Y axis.
@@ -105,7 +106,7 @@
     public:
       bool debug = false;
       /**
-      @brief Class constructor. Create a new object of the joystick and set the axes (X/Y) pin to input mode
+      @brief Class constructor. Create a new object of the joystick and set the axis (X/Y) pin to input mode
       @param x (x analog port pin of the device)
       @param y (y analog port pin of the device)
       */
@@ -128,7 +129,7 @@
         for both the X and Y axis.  The getPosition() method will use these values to
         report back an adjusted range with MID(512) at the neutral position.
       */
-      void calibrateCenter();
+      void calibrateCenter(); 
       bool getButton();
   };
 

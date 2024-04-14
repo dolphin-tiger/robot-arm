@@ -46,7 +46,7 @@
   #include <Arduino.h>
 
   class robotMotor {
-    private:      
+    private:
 
       /**
         @brief parameters for motor number (pwm channel) and i2c address of controller
@@ -83,7 +83,7 @@
         not the correct place.
       */
       Adafruit_PWMServoDriver svo = Adafruit_PWMServoDriver(i2cAddress);
-      
+
     public:
 
       /**
@@ -97,7 +97,7 @@
 
       */
       void attach(int i2c, int ch);
-      
+
       /**
       @brief method to move the motor incrementally.
       @details
@@ -135,7 +135,7 @@
       position of the motor.
       */
       void setCenterPosition(int pos);
-      
+
       /**
       @brief method to get a center position of the motor.
       @details
@@ -158,7 +158,7 @@
       @details
       This method is used to get the minimum position of the motor. 
       All methods that move the motor will follow these constraints so that 
-      the motor will not move to a value less than the minimum position.
+      the motor will not move to a value less than the minimum position.  
       */
       int getMinPosition();
 
