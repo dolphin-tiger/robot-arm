@@ -1,19 +1,23 @@
 # robot-arm
 We branded/named the project the **VE2**.
 
-![logo-ve2-invert-sm](https://github.com/dolphin-tiger/robot-arm/assets/62484970/2362d84b-6f2c-45c0-a60b-b1bd6310ce55)
-
-
-
-https://github.com/dolphin-tiger/robot-arm/assets/62484970/2833d79a-bbf1-4e61-a818-328a371b3459
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dolphin-tiger/robot-arm/assets/62484970/2362d84b-6f2c-45c0-a60b-b1bd6310ce55">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://github.com/dolphin-tiger/robot-arm/assets/62484970/ff5d364a-5c72-44b9-877a-8a067ef84dfb#gh-dark-mode-only">
+</picture>
 
 
 robot-arm is a 5th graders class project to build and control a robotic arm utilizing an Arduino controller, servo motors, and analog joysticks. The original goal of the project was to learn how coding works, with the specific request to start from scratch as opposed to modifying something existing.  We mostly accomplished that task here by creating our own ncludes but also learned why at some point it is impractical and undesirable to recreate all the code from scratch. This project has a good mixture of scratch code along with libraries like from Adafruit and other even more obvious like <Arduino.h>.
 
-We got as far as building the arm as of the time of writing this.  We have not built or integrated the claw yet.
+We got as far as building the arm as of the time of writing this.  We have not built or integrated the claw yet. The claw show is a remix of another user's design in TinkerCAD - https://www.tinkercad.com/things/5wWMo4qOFqS-alternative-claw
+
+
+https://github.com/dolphin-tiger/robot-arm/assets/62484970/2ba6a947-4f31-4826-a24a-4a7a1042c0b7
+
 
 ## Design
-We used [TinkerCAD](https://www.tinkercad.com/) to model the components.
+We used [TinkerCAD](https://www.tinkercad.com/) to model the components.  TinkerCAD was easy to learn and worked great for this project.  Once you get the hang of solid vs hole, grouping objects, and using the ruler then the skys the limit for what you can do.
+[TinkerCAD VE2-Full Design](https://www.tinkercad.com/things/9WjpDJQ0Wra-ve2-full-design)
 [![image](https://github.com/dolphin-tiger/robot-arm/assets/62484970/c8daf28d-fe84-48b7-81ff-2887e7d1dad4)](https://www.tinkercad.com/things/9WjpDJQ0Wra-ve2-full-design)
 
 This is a mock simulation built in TinkerCAD.  TinkerCAD doesn't have all of the components to fully build our project, but this was a good place to start with basic wiring and control.  The potentiometers are used in place of the joysticks to simulate.  We will work on adding additional wiring information to this readme.
@@ -28,13 +32,13 @@ This is a mock simulation built in TinkerCAD.  TinkerCAD doesn't have all of the
 - (1) 5VDC 10A Power Supply
 
 ## Custom Parts
-**Base:** [TinkerCAD](https://www.tinkercad.com/things/jKUhlaCRjJ6-ve2-base) - The base is made out of 5mm plexiglass that was cut by a friend with a laser cutter.  From TinkerCAD you just export a .svg file of the object that will import directly into the laser cutter software.
-![image](https://github.com/dolphin-tiger/robot-arm/assets/62484970/d768acec-bae4-4f7b-821b-711e57bfaee3)
+- **Base:** [TinkerCAD](https://www.tinkercad.com/things/jKUhlaCRjJ6-ve2-base) - The base is made out of 5mm plexiglass that was cut by a friend with a laser cutter.  From TinkerCAD you just export a .svg file of the object that will import directly into the laser cutter software.
+  - ![image](https://github.com/dolphin-tiger/robot-arm/assets/62484970/d768acec-bae4-4f7b-821b-711e57bfaee3)
 
-**Joystick Controller:** [TinkerCAD](https://www.tinkercad.com/things/77tcLyRLhxv-ve2-controller)
-![image](https://github.com/dolphin-tiger/robot-arm/assets/62484970/450e1612-b572-44b9-bbd5-e902b02e7b78)
+- **Joystick Controller:** [TinkerCAD](https://www.tinkercad.com/things/77tcLyRLhxv-ve2-controller)
+  - ![image](https://github.com/dolphin-tiger/robot-arm/assets/62484970/450e1612-b572-44b9-bbd5-e902b02e7b78)
 
 
-**Motor Mount:** [TinkerCAD](https://www.tinkercad.com/things/eI32lApy8ZL-ve2-motor-mount) - The motor mount is a 3D printed part to attach the bottom motor to the base plate.  This was printed by another friend with a 3D printer.
+- **Motor Mount:** [TinkerCAD](https://www.tinkercad.com/things/eI32lApy8ZL-ve2-motor-mount) - The motor mount is a 3D printed part to attach the bottom motor to the base plate.  This was printed by another friend with a 3D printer.
+  - ![image](https://github.com/dolphin-tiger/robot-arm/assets/62484970/a4599940-fdb5-4ee8-8adc-d7b004279810)
 
-![image](https://github.com/dolphin-tiger/robot-arm/assets/62484970/a4599940-fdb5-4ee8-8adc-d7b004279810)
