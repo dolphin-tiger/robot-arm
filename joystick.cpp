@@ -1,7 +1,7 @@
 /****************************************************************************************************
   @file joystick.cpp
   @brief Joystick class with center calibration
-  @author Jeremy Reynolds <jeremy.reynolds.123@gmail.com>
+  @author Jeremy Reynolds <62484970+jeremy-reynolds@users.noreply.github.com>
   @version 1.0.1
   @date 2024/03/22
 
@@ -17,7 +17,7 @@
   
   MIT License
 
-  Copyright (c) 2024 Jeremy Reynolds
+  Copyright (c) 2024 dolphin-tiger
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -36,6 +36,7 @@
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.
+
 ****************************************************************************************************/
 #include "joystick.h"
 #include <Arduino.h>
